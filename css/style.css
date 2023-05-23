@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+ul,
+ol{
+    list-style: none;
+    color: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------------------header-------------------- */
+header{
+    background-color: rgb(73, 238, 169);
+    padding:3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.imagen{
+    background-color: blue;
+    height: 500px;
+    background-image: url(../img/oversize.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.nav-lis{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 40px;
+    color: white;
+    
+}
+article{
+    display: flex;
+    padding: 5%;
+    gap: 20%;
+    font-size: 1.5rem;
+}
+.etiqueta-1{
+    display: flex;
+    border-style:double;
+    background-color: rgba(100, 148, 237, 0.418);
+}
+.etiqueta-2{
+    display: flex;
+    border-style:double ;
+    background-color: rgba(100, 148, 237, 0.418);
+}
+.etiqueta-3{
+    display: flex;
+    border-style: double;
+    background-color: rgba(100, 148, 237, 0.418);
+}
+footer{
+    background-color: rgb(151, 151, 151);
+    padding: 3%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.titulo-2{
+    display: flex;
+    align-items: center;
+}
+.footer-list{
+    display:table-row;
+}
+
+@media(max-width: 768px){ 
+
+.body{
+    padding: 10px;
+}
+    .header{ 
+        justify-content:center;
+        display: block;
+        text-align: center;
+        padding: 15px;
+    }
+.nav-lis{
+    display: none;
+    display: block;
+    text-align: center;
+    padding:20px;
+}
+
+.serch-bar{
+    display:none
+}
+
+.nav-enlaces{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 4px;
+}
+.imagen{
+    width: 100%;
+}
+.etiqueta-2{
+    display: none;
+}
+.etiqueta-3{
+    display: none;
+}
+.etiqueta-1{
+    display: flex;
+    text-align: center;
+}
+}
