@@ -212,4 +212,35 @@ border-radius: 6px;
     justify-content: end;
     padding: 5px;
 }
+/* ------------------------seccion remeras-------------------- */
+.barra-busqueda{
+    display: none;
+}
+.titulo-remeras{
+    display: flex;
+    justify-content:center;
+    padding: 15px;
+}
+
+
+
+.main{
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto2{
+    display:none;
+}
+.span{
+    display: none;
+}
+.footer-list2{
+    display: block;
+    text-align: center;
+    justify-content: end;
+    padding: 5px;
+
+}
 }
