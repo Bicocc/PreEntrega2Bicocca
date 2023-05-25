@@ -10,6 +10,7 @@ ol{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 
 /* -------------------header-------------------- */
@@ -39,6 +40,7 @@ header{
     color: white;
     
 }
+/* -----------------article------------------- */
 article{
     display: flex;
     padding: 5%;
@@ -60,28 +62,109 @@ article{
     border-style: double;
     background-color: rgba(100, 148, 237, 0.418);
 }
+
+/* ------------------footer--------------------- */
 footer{
     background-color: rgb(151, 151, 151);
     padding: 3%;
     display:flex;
     justify-content: space-around;
     align-items: center;
-
+  
     
 }
-.titulo-2{
+titulo-2{
     display: flex;
     align-items: center;
+    
 }
 .footer-list{
     display:table-row;
 }
+/* ---------------seccion remeras-------------------- */
+.main{
+    display: flex;
+    justify-content: space-around;
+}
 
-@media(max-width: 768px){ 
+.productos{
+    width: 300px;
+    height: 565px;
+    background-image:url(../img/Remera-negra-oversize-.jpg) ;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.tarjeta-cuerpo{
+    width: 100%;
+    height:40% ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    padding-top: 135%;
+}
+
+.productos-2{
+    width: 300px;
+    height: 565px;
+    background-image:url(../img/remera-hades-negra.webp) ;
+    background-position: center;
+    background-size: cover;
+    border:3px solid black;
+    border-radius: 20px;
+}
+
+.tarjeta-cuerpo2{
+    width: 100%;
+    height:40% ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    padding-top: 135%;
+}
+
+
+.productos-3{
+    width: 300px;
+    height: 565px;
+    background-image:url(../img/remera-oversize-blanca.jpg) ;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding: 0% 0%;
+}
+
+.tarjeta-cuerpo3{
+    width: 100%;
+    height:40% ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    padding-top: 135%;
+   
+}
+
+/* -----------------------btn------------------- */
+/* .btn{
+background-color:cadetblue ;
+padding: 10px 8px;
+border-radius: 6px;
+} */
+
+/* ----------------MOBILE-------------------- */
+
+@media(max-width: 480px){ 
 
 .body{
     padding: 10px;
 }
+/* --------------header mobile--------------------- */
     .header{ 
         justify-content:center;
         display: block;
@@ -116,5 +199,17 @@ footer{
 .etiqueta-1{
     display: flex;
     text-align: center;
+}
+
+.titulo-2{
+    display: block;
+    padding: 5px;
+}
+/* --------------footer mobile------------------ */
+.footer-list{
+    display: block;
+    text-align: center;
+    justify-content: end;
+    padding: 5px;
 }
 }
